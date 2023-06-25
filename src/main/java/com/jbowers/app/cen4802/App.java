@@ -22,7 +22,7 @@ public class App
             }
             else {
             	exit = true;
-            	System.out.println("Goodbye");
+            	System.out.println("Goodbye, Joachim");
             }	
     	}
     	

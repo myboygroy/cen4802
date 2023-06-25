@@ -11,5 +11,4 @@ public class FibonacciTest {
         // Should be greater than or equal to 0
         assertTrue(fib >= 0);
     }
-    public void shouldReturnFalse
 }

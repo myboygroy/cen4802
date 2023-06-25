@@ -1,5 +1,5 @@
 package com.jbowers.app.cen4802;
-class Fibonacci {
+public class Fibonacci {
 
   /**
    * Returns the nth term in the Fibonacci sequence

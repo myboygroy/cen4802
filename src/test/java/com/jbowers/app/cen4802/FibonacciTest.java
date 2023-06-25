@@ -1,13 +1,14 @@
 package com.jbowers.app.cen4802;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.assertTrue;
+import org.junit.Test;
+
 
 public class FibonacciTest {
     @Test
-    void shouldGivePositiveInteger() {
+    public void shouldGivePositiveInteger() {
         int fib = Fibonacci.fibonacci(10);
         // Should be greater than or equal to 0
-        Assertions.assertTrue(fib >= 0);
+        assertTrue(fib >= 0);
     }
 }
